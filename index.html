@@ -1,0 +1,28 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <title>Task Manager</title>
+        <link rel="Stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-area">
+                <input id="taskInput" type="text" placeholder="Enter your tasks here.."/>
+                <button id="addBtn">Add</button>
+
+            </div>
+            <ul id="taskList"></ul>
+
+            <div class="footer">
+                <span id="counter">0 tasks left</span>
+                <div class="filters">
+                    <button id="allBtn">All</button>
+                    <button id="activeBtn">Active</button>
+                    <button id="completeBtn">Completed</button>
+                </div>
+                <button id="clearBtn">Clear Done</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
